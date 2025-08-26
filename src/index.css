@@ -1,4 +1,5 @@
 @import 'tailwindcss';
+@custom-variant dark (&:where(.dark, .dark *));
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Press+Start+2P&display=swap');
 @font-face {
     font-family: Press;
@@ -20,6 +21,9 @@
     --color-dark-green: #02212C;
     --color-green-button: #86B9AB;
     --color-gray-home: #6D6B6E;
+    --color-gray-input: #707E81;
+    --color-green-input: #A3C1B7;
+    --color-green-contato: #57807B;
 
     --color-filamento: #0995C5;
     --color-filamento2: #417F81;
@@ -27,6 +31,8 @@
     --color-display2: #FA5884;
     --color-servo: #700302;
     --color-servo2: #0E3D99;
+    --color-servo3: #BE6F06;
+    --color-servo4: #DCDEA9;
     --color-modulo: #5D6167;
     --color-modulo2: #3A2416;
     --color-microfone: #27272C;
