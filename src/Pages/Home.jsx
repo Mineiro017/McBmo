@@ -5,7 +5,7 @@ export function Home() {
     return(
         <div className="bg-background dark:bg-background-header bg-cover min-h-screen">
             <Header />
-            <div className="flex items-center justify-center gap-20 pt-20">
+            <div className="flex items-center justify-center gap-20 pt-20 px-20">
             <div className="flex flex-col gap-15 font-inter">
                 <h1 className="text-black dark:text-background font-fredoka text-8xl font-bold">Cada mente <br />é um universo</h1>
                 <p className="font-bold text-gray-home">Transforme a terapia, com um simples toque, criamos mais conexão <br />e cuidado emocional.</p>
