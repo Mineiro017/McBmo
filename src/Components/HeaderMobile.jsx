@@ -7,7 +7,7 @@ import jogo from "../assets/jogo.png"
 
 export function HeaderMobile() {
     return(
-        <div className="lg:hidden px-10 py-5 items-center flex gap-10 justify-between bg-background-header">
+        <div className="lg:hidden fixed bottom-0 left-0 w-full px-10 py-5 items-center flex gap-10 justify-between bg-background-header">
                 <Link to={"/"}>
                     <img src={home} alt="" />
                 </Link>

@@ -19,7 +19,7 @@ export function Header() {
     }, [theme])
 
     return(
-        <header className="lg:px-10 pr-5 items-center flex justify-between bg-background-header dark:bg-background dark:text-background-header text-background ">
+        <header className="lg:px-10 fixed w-full pr-5 items-center flex justify-between bg-background-header dark:bg-background dark:text-background-header text-background ">
             <div className="flex items-center">
                 <Link to={"/"}><img src={logo} alt="logo mcbmo" /></Link>
                 <Link to={"/"}><p className="font-press text-xl">McBmo</p></Link>

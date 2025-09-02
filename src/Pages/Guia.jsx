@@ -16,9 +16,9 @@ export function Guia() {
     return(
         <div className="font-inter bg-background dark:bg-background-header bg-cover min-h-screen">
             <Header />
-            <h1 className="flex justify-center pt-15 text-5xl dark:text-green-button font-bold">Guia da utilização do protótipo McBmo</h1>
-            <div className="flex flex-col pt-20">
-                <div className="pl-70 pr-20">
+            <h1 className="flex lg:px-0 px-5 lg:text-start text-center justify-center lg:pt-40 pt-30 lg:text-5xl text-3xl dark:text-green-button font-bold">Guia da utilização do protótipo McBmo</h1>
+            <div className="flex flex-col lg:pt-20 pt-10">
+                <div className="lg:pl-70 lg:pr-20 pl-10 pr-10">
                     <div>
                         <div className="flex items-center gap-5">
                             <img src={acesse1} alt="acesse" className="h-20"/>
@@ -112,13 +112,13 @@ export function Guia() {
                     </div>
                 </div>
 
-                <div className="flex justify-center p-20">
+                <div className="flex lg:flex-row flex-col justify-center lg:p-20 p-10">
                     <div className="flex flex-col gap-5">
                         <h2 className="pt-20 text-2xl font-bold dark:text-green-button">Veja o nosso protótipo em ação</h2>
                         <p className="text-gray-home dark:text-background">Assista aos nossos tutoriais em vídeo para dominar as funcionalidades do protótipo MCBMO e suas práticas terapêuticas.</p>
                     </div>
-                    <img className="block dark:hidden h-140" src={video} alt="vídeo" />
-                    <img className="hidden dark:block" src={videoEscuro} alt="vídeo" />
+                    <img className="block dark:hidden lg:h-140 lg:p-0 p-10" src={video} alt="vídeo" />
+                    <img className="hidden dark:block lg:h-140 lg:p-0 p-10" src={videoEscuro} alt="vídeo" />
                 </div>
             </div>
             <HeaderMobile />

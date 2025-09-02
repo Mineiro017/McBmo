@@ -6,9 +6,9 @@ export function Referencias() {
     return(
         <div className="bg-background dark:bg-background-header bg-cover min-h-screen">
             <Header />
-            <div className="flex flex-col pt-10 items-center">
+            <div className="flex flex-col lg:pt-30 pt-20 items-center">
                 <div className="flex flex-col gap-10 w-screen">
-                    <div className="flex gap-30 items-center justify-center">
+                    <div className="lg:flex hidden gap-30 items-center justify-center">
                         <img src={quadrado} alt="link aqui" />
                         <img src={quadrado} alt="link aqui" />
                         <img src={quadrado} alt="link aqui" />
