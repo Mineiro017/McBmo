@@ -1,4 +1,5 @@
 import { Header } from "../Components/Header"
+import { HeaderMobile } from "../Components/HeaderMobile"
 import quadrado from "../assets/quadrado.png"
 
 export function Referencias() {
@@ -19,6 +20,7 @@ export function Referencias() {
                     Nosso objetivo é unir tecnologia e empatia para transformar a forma como cuidamos da saúde mental — especialmente daqueles que mais precisam ser ouvidos.</p>
                 </div>
             </div>
+            <HeaderMobile />
         </div>
     )
 }

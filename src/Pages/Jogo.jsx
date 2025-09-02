@@ -1,4 +1,5 @@
 import { Header } from "../Components/Header"
+import { HeaderMobile } from "../Components/HeaderMobile"
 import mcbmotext from "../assets/mcbmotext.png"
 import game from "../assets/game.png"
 
@@ -14,6 +15,7 @@ export function Jogo() {
                     <button className="bg-green-button w-40 h-15 text-xl cursor-pointer text-background-header rounded-lg">Jogue agora</button>
                 </div>
             </div>
+            <HeaderMobile />
         </div>
     )
 }

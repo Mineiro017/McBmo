@@ -1,4 +1,5 @@
 import { Header } from "../Components/Header"
+import { HeaderMobile } from "../Components/HeaderMobile"
 import filamento from "../assets/filamento.png"
 import display from "../assets/display.png"
 import servo from "../assets/servo.png"
@@ -160,8 +161,8 @@ export function Produto() {
                         <p className="text-amarelo bg-dark-green dark:bg-filamento2 dark:text-servo">R$438</p>
                     </div>
                 </div>
-                
             </div>
+            <HeaderMobile />
         </div>
     )
 }

@@ -1,4 +1,5 @@
 import { Header } from "../Components/Header"
+import { HeaderMobile } from "../Components/HeaderMobile"
 import acesse1 from "../assets/acesse1.png"
 import ativacao2 from "../assets/ativacao2.png"
 import cadastro3 from "../assets/cadastro3.png"
@@ -120,6 +121,7 @@ export function Guia() {
                     <img className="hidden dark:block" src={videoEscuro} alt="vídeo" />
                 </div>
             </div>
+            <HeaderMobile />
         </div>
     )
 }

@@ -1,4 +1,5 @@
 import { Header } from "../Components/Header"
+import { HeaderMobile } from "../Components/HeaderMobile"
 import maria from "../assets/maria.png"
 import igor from "../assets/igor.png"
 import julia from "../assets/julia.png"
@@ -68,6 +69,7 @@ export function SobreNos() {
                     <img className="w-200" src={decoracao} alt="" />
                 </div>
             </div>
+            <HeaderMobile />
         </div>
     )
 }
