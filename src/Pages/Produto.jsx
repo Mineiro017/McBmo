@@ -90,9 +90,9 @@ export function Produto() {
     return(
         <div className="bg-background dark:bg-background-header bg-cover min-h-screen">
             <Header />
-            <div className="flex lg:flex-row flex-col justify-center items-center gap-10 pt-30 font-inter px-10">
+            <div className="flex min-h-screen lg:flex-row flex-col justify-center items-center gap-10 pt-30 font-inter px-10">
 
-                <div className="lg:flex hidden flex-col items-end gap-20">
+                <div className="lg:flex hidden flex-col gap-10">
                     <div className="w-120">
                         <h2 className={`text-4xl font-bold ${produto.corNome} ${produto.corNomeEscuro}`}>
                             {produto.nome}
@@ -101,19 +101,19 @@ export function Produto() {
                             {produto.descricao}
                         </h2>
                     </div>
-                    <span className="text-amarelo bg-dark-green dark:bg-filamento2 dark:text-servo text-xl px-3 py-1">
+                    <p className="text-amarelo w-fit bg-dark-green dark:bg-filamento2 dark:text-servo text-xl px-3 py-1">
                         {produto.preco}
-                    </span>
+                    </p>
                 </div>
 
                 <div className="flex justify-center items-center lg:px-0 px-10">
-                    <img onClick={prevProduto} src={setaesquerda} alt="seta esquerda" className="block dark:hidden"/>
-                    <img onClick={prevProduto} src={setaEsquerdaEscuro} alt="seta esquerda escura" className="hidden dark:block"/>
+                    <img onClick={prevProduto} src={setaesquerda} alt="seta esquerda" className="cursor-pointer block dark:hidden"/>
+                    <img onClick={prevProduto} src={setaEsquerdaEscuro} alt="seta esquerda escura" className="cursor-pointer hidden dark:block"/>
 
                     <img src={produto.imagem} alt={produto.nome} className="lg:w-110 w-70 h-60 lg:h-110" />
 
-                    <img onClick={nextProduto} src={setadireita} alt="seta direita" className="block dark:hidden"/>
-                    <img onClick={nextProduto} src={setaDireitaEscuro} alt="seta direita escura" className="hidden dark:block"/>
+                    <img onClick={nextProduto} src={setadireita} alt="seta direita" className="cursor-pointer block dark:hidden"/>
+                    <img onClick={nextProduto} src={setaDireitaEscuro} alt="seta direita escura" className="cursor-pointer hidden dark:block"/>
                 </div>
 
                 <div className="lg:hidden flex items-start flex-col gap-5 pb-30">
